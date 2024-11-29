@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="5" name="com.example.bigcompany.EmployeeProcessorTest" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/saurabhsharma/Documents/SalaryAnalysis"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/saurabhsharma/Documents/SalaryAnalysis"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_f/j5cprcgx39b157505h7kqfhh0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/saurabhsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/saurabhsharma"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="saurabhsharma"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="com.example.bigcompany.EmployeeProcessorTest" name="com.example.bigcompany.EmployeeProcessorTest.testMissingManagerHandling" time="0.002">
+    <failure message="Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null
+	at com.example.bigcompany.EmployeeProcessorTest.testMissingManagerHandling(EmployeeProcessorTest.java:71)
+</failure>
+  </testcase>
+  <testcase classname="com.example.bigcompany.EmployeeProcessorTest" name="com.example.bigcompany.EmployeeProcessorTest.testLoadEmployees_successfulLoad" time="0">
+    <failure message="Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null
+	at com.example.bigcompany.EmployeeProcessorTest.testLoadEmployees_successfulLoad(EmployeeProcessorTest.java:21)
+</failure>
+  </testcase>
+  <testcase classname="com.example.bigcompany.EmployeeProcessorTest" name="com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningLess" time="0">
+    <failure message="Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null
+	at com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningLess(EmployeeProcessorTest.java:35)
+</failure>
+  </testcase>
+  <testcase classname="com.example.bigcompany.EmployeeProcessorTest" name="com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningMore" time="0.001">
+    <failure message="Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null
+	at com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningMore(EmployeeProcessorTest.java:47)
+</failure>
+  </testcase>
+  <testcase classname="com.example.bigcompany.EmployeeProcessorTest" name="com.example.bigcompany.EmployeeProcessorTest.testReportingLines_excessiveChainLength" time="0">
+    <failure message="Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.example.bigcompany.EmployeeProcessor.loadEmployees(String)&quot; because &quot;this.processor&quot; is null
+	at com.example.bigcompany.EmployeeProcessorTest.testReportingLines_excessiveChainLength(EmployeeProcessorTest.java:59)
+</failure>
+  </testcase>
+</testsuite>

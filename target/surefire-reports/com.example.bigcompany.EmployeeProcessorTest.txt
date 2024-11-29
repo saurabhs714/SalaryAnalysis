@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.example.bigcompany.EmployeeProcessorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+com.example.bigcompany.EmployeeProcessorTest.testMissingManagerHandling()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.example.bigcompany.EmployeeProcessor.loadEmployees(String)" because "this.processor" is null
+	at com.example.bigcompany.EmployeeProcessorTest.testMissingManagerHandling(EmployeeProcessorTest.java:71)
+
+com.example.bigcompany.EmployeeProcessorTest.testLoadEmployees_successfulLoad()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.example.bigcompany.EmployeeProcessor.loadEmployees(String)" because "this.processor" is null
+	at com.example.bigcompany.EmployeeProcessorTest.testLoadEmployees_successfulLoad(EmployeeProcessorTest.java:21)
+
+com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningLess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.example.bigcompany.EmployeeProcessor.loadEmployees(String)" because "this.processor" is null
+	at com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningLess(EmployeeProcessorTest.java:35)
+
+com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningMore()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.example.bigcompany.EmployeeProcessor.loadEmployees(String)" because "this.processor" is null
+	at com.example.bigcompany.EmployeeProcessorTest.testSalaryAnalysis_managerEarningMore(EmployeeProcessorTest.java:47)
+
+com.example.bigcompany.EmployeeProcessorTest.testReportingLines_excessiveChainLength()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.example.bigcompany.EmployeeProcessor.loadEmployees(String)" because "this.processor" is null
+	at com.example.bigcompany.EmployeeProcessorTest.testReportingLines_excessiveChainLength(EmployeeProcessorTest.java:59)
+
